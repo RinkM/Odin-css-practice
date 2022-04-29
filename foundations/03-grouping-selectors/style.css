@@ -1,0 +1,27 @@
+
+
+.button1 {background-color: black; color:white
+
+}
+
+.button2 {background-color: yellow;
+
+}
+
+.button1,
+.button2{font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+* **The first element**: a black background and white text
+* **The second element**: a yellow background
+* **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback 
+
+## Desired Outcome
+![desired outcome](./desired-outcome.png)
+
+
+### Self Check
+- Does each element have a unique class name?
+- Did you use the grouping selector for styles that both elements share?
+- Did you make separate rules for the styles unique to each element?
